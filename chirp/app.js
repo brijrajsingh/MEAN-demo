@@ -45,7 +45,7 @@ var client;
 // if (process.env.NODE_ENV == 'production') {
     app.use(morgan('combined', { stream: accessLogStream }));
     mongoose.connect('mongodb://mongodb-member1,mongodb-member0/test-chirp', options);
-    client = redis.createClient('@@redis-port@@', '@@redis-host@@', { auth_pass: '@@redis-auth-key@@' });
+    client = redis.createClient('@@redis-port@@', '@@redis-host@@', { auth_pass: 'VJn5oj9xWFv2VlwGGHzlPUHKWZtT+AGvvjbOn0/LrO4=' });
 
 // } else {
     // app.use(morgan('dev'));
